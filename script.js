@@ -41,9 +41,7 @@ const showMsg = (userWin, userChoice, compChoice) => {
 };
 
 const playGame = (userChoice) => {
-  console.log(`user choice is = ${userChoice}`);
   const compChoice = genCompChoice();
-  console.log(`Comp choice is = ${compChoice}`);
   if (userChoice === compChoice) {
     drawGame();
   } else {
